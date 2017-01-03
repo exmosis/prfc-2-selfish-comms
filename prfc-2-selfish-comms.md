@@ -8,7 +8,7 @@ Hopefully this may be of use to others?
 
 Authors: @[6loss](https://twitter.com/6loss)<br>
 Version: Draft v0.1.0<br>
-URL: TBA<br>
+URL: https://github.com/exmosis/prfc-2-selfish-comms<br>
 
 **Background**
 
@@ -26,7 +26,28 @@ It is this lack of knowing that this PRFC seeks to address, not the lack of trus
 
 **Spec**
 
+This section will be broken down by external services and internal setup.
 
+***External Services***
+
+
+***Internal Config***
+
+****Firefox****
+
+I use Firefox as it seems to offer the most consistent and complete cross-platform, cross-machine performance. That said, I have had problems running it on an underpowered Linux notebook where I've experimented with other browsers. (The [TorBrowser](https://www.torproject.org/projects/torbrowser.html) is often worth running when using Tor. [PaleMoon](http://www.palemoon.org/) and [Midori](http://midori-browser.org/) seem to be the most useful alternatives so far, at time of writing. However, keeping up with forks is time-consuming.)
+
+*****Add-ons*****
+
+The following add-ons have been chosen for being available equally on OSX and Android versions of Firefox, for consistency.
+
+* *[HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/?src=search)* - encourage greater HTTPS usage for sites which support it. [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)
+* *[uBlock Origin[(https://github.com/gorhill/uBlock)* - ad blocker.
+* *[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes)* offers a local version of various third-party files. See [simple description](https://github.com/Synzvato/decentraleyes/wiki/Simple-Introduction), still examining exactly what impact this has though.
+
+OSX:
+
+* Experimental: [Smart HTTPS](https://addons.mozilla.org/en-US/firefox/addon/smart-https/?src=search)
 
 **Questions**
 
