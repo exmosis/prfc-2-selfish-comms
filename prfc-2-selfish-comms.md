@@ -30,8 +30,29 @@ This section will be broken down by external services and internal setup.
 
 ***External Services***
 
+****Virtual Private Network****
+
+A Virtual Private Network (VPN) can be useful for a number of purposes. It can provide a secure, (more) trusted link when on an otherwise insecure connection (such as a cafe wifi), and can also encrypt traffic in order to bypass other interception (such as ISPs that knowingly intercept or block certain types of traffic, such as webpages.
+
+As of December 2016, I use [Trust.Zone](https://trust.zone/)  - it should be noted this is my first use of a personal VPN, and still subject to experiment, but initial results are encouraging. You may also be interested in this [heady introduction and guide to what to look for in a VPN](https://www.reddit.com/r/VPN/comments/4iho8e/that_one_privacy_guys_guide_to_choosing_the_best/?st=iu9u47u7&sh=459a76f2). Trust.Zone has several servers based around the world and it's easy to jump country by changing the server being connected to. You can also pay in Bitcoin, and they allow traffic such as Tor connections. They claim not to log anything (although I haven't done more work fully verifying this yet) and have good setup guides to follow. So far, support is good for OSX and Android devices (see below for internal configuration).
 
 ***Internal Config***
+
+****VPN setup****
+
+See above for more info on the Trust.Zone, the VPN service I'm currently using. For all clients below, I tend to connect to a VPN server in *Switzerland* as a primary option, and *Brazil* as a secondary option. I've started looking into the [14 Eyes countries](https://www.my-private-network.co.uk/vpn-provider-14-eyes-country-something-know/) which is worth reading up on if looking to find out how information is gathered internationally.
+
+*****OSX*****
+
+Trust.Zone support OpenVPN and L2TP for OSX - I use L2TP over IPSec, configured using OSX's own internal VPN setup. 
+
+*****Android*****
+
+I use the [OpenVPN for Android](https://ics-openvpn.blinkt.de) app for Android, which is available via [F-Droid](http://f-droid.org/). The configuration file for this can be downloaded from the Trust.Zone site, and should work easily once you enter your connection's username and password.
+
+I make sure OpenVPN is ocnfigured to disallow network traffic when the VPN is reconnecting.
+
+*Known issue:* There is a small amount of time on boot-up when the wi-fi network is enabled, but OpenVPN is still connecting. Some known background apps may try to connect without the VPN at this point. Currently this is a known potential leak, but an acceptable risk so far. Possible workarounds include 1) turning off auto-sync (or running in Battery Saver mode?) and 2) rooting the device to have more control over traffic (although this has other risks).
 
 ****Firefox****
 
