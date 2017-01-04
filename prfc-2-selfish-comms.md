@@ -63,8 +63,9 @@ I use Firefox as it seems to offer the most consistent and complete cross-platfo
 The following add-ons have been chosen for being available equally on OSX and Android versions of Firefox, for consistency.
 
 * *[HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/?src=search)* - encourage greater HTTPS usage for sites which support it. [HTTPS Everywhere homepage](https://www.eff.org/https-everywhere)
-* *[uBlock Origin[(https://github.com/gorhill/uBlock)* - ad blocker.
+* *[uBlock Origin](https://github.com/gorhill/uBlock)* - ad blocker.
 * *[Decentraleyes](https://addons.mozilla.org/firefox/addon/decentraleyes)* offers a local version of various third-party files. See [simple description](https://github.com/Synzvato/decentraleyes/wiki/Simple-Introduction), still examining exactly what impact this has though.
+* *[ProxyBonanza Proxy Manager](https://addons.mozilla.org/en-US/firefox/addon/proxybonanza-manager/?src=ss)* - for proxy setup/switching
 
 OSX:
 
