@@ -81,5 +81,6 @@ OSX:
 
 **Resources**
 
+* Useful guide which covers much of the same: https://www.privacytools.io/#addons
 
 
