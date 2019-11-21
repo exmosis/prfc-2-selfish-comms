@@ -70,8 +70,10 @@ The following add-ons have been chosen for being available equally on OSX and An
 
 Under test:
 
-* *[Privacy Badger](https://www.eff.org/privacybadger) - the EFF's version of a blocker, based on analysing site traffic as you browse
-
+* *[Privacy Badger](https://www.eff.org/privacybadger)* - the EFF's version of a blocker, based on analysing site traffic as you browse
+* *[NeatURL](https://addons.mozilla.org/en-US/firefox/addon/neat-url/?src=search)* - one of various add-ons to remove tracking parameters in URLs
+ * Possible alternative is [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/), but this requires a lot more permissions granted
+ 
 OSX:
 
 * Experimental: [Smart HTTPS](https://addons.mozilla.org/en-US/firefox/addon/smart-https/?src=search)
@@ -82,5 +84,8 @@ OSX:
 **Resources**
 
 * Useful guide which covers much of the same: https://www.privacytools.io/#addons
+* A [ghacks guide](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions) worth looking at
+* Whoa: [Humane Tech's guide](https://github.com/humanetech-community/awesome-humane-tech) looks amazing
+
 
 
