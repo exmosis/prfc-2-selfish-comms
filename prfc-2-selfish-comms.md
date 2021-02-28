@@ -86,6 +86,8 @@ OSX:
 * Useful guide which covers much of the same: https://www.privacytools.io/#addons
 * A [ghacks guide](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions) worth looking at
 * Whoa: [Humane Tech's guide](https://github.com/humanetech-community/awesome-humane-tech) looks amazing
+* Bruce Schneier: [Should there be limits on persuasive technologies?](https://www.schneier.com/blog/archives/2020/12/should-there-be-limits-on-persuasive-technologies.html)
+* 
 
 
 
