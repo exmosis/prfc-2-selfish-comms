@@ -87,7 +87,7 @@ OSX:
 * A [ghacks guide](https://github.com/ghacksuserjs/ghacks-user.js/wiki/4.1-Extensions) worth looking at
 * Whoa: [Humane Tech's guide](https://github.com/humanetech-community/awesome-humane-tech) looks amazing
 * Bruce Schneier: [Should there be limits on persuasive technologies?](https://www.schneier.com/blog/archives/2020/12/should-there-be-limits-on-persuasive-technologies.html)
-* 
+* Comprehensive [guide to online anonymity](https://anonymousplanet.org/guide.html) - also [on github](https://github.com/AnonymousPlanet/thgtoa)
 
 
 
