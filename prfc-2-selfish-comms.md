@@ -88,6 +88,7 @@ OSX:
 * Whoa: [Humane Tech's guide](https://github.com/humanetech-community/awesome-humane-tech) looks amazing
 * Bruce Schneier: [Should there be limits on persuasive technologies?](https://www.schneier.com/blog/archives/2020/12/should-there-be-limits-on-persuasive-technologies.html)
 * Comprehensive [guide to online anonymity](https://anonymousplanet.org/guide.html) - also [on github](https://github.com/AnonymousPlanet/thgtoa)
-
-
-
+* Ars Technica guide to securing your online identity: [Part 1](https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/) and [two](https://arstechnica.com/information-technology/2021/10/securing-your-digital-life-part-2/)
+* Information leakage checker 1: [https://ipleak.net/](https://ipleak.net/)
+* Information leakage checker 2: [https://dnsleaktest.com/](https://dnsleaktest.com/)
+* Information leakage checker 3: [https://browserleaks.com/](https://browserleaks.com/)
