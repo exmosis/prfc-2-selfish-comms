@@ -7,7 +7,6 @@ Hopefully this may be of use to others?
 **Meta**
 
 Authors: @[6loss](https://twitter.com/6loss)<br>
-Version: Draft v0.1.0<br>
 URL: https://github.com/exmosis/prfc-2-selfish-comms<br>
 
 **Background**
@@ -65,6 +64,16 @@ I make sure OpenVPN is ocnfigured to disallow network traffic when the VPN is re
 
 I use Firefox as it seems to offer the most consistent and complete cross-platform, cross-machine performance. That said, I have had problems running it on an underpowered Linux notebook where I've experimented with other browsers. (The [TorBrowser](https://www.torproject.org/projects/torbrowser.html) is often worth running when using Tor. [PaleMoon](http://www.palemoon.org/) and [Midori](http://midori-browser.org/) seem to be the most useful alternatives so far, at time of writing. However, keeping up with forks is time-consuming.)
 
+Firefox supports DNS-over-HTTPS (DoH) - outside of the United States, this can be configured via the "General" settings, under "Network", and then "Enable DNS over HTTPS".
+
+Browser leakage test sites:
+
+* [Cloudflare browser tests](https://www.cloudflare.com/en-gb/ssl/encrypted-sni/)
+* Information leakage checker 1: [https://ipleak.net/](https://ipleak.net/)
+* Information leakage checker 2: [https://dnsleaktest.com/](https://dnsleaktest.com/)
+* Information leakage checker 3: [https://browserleaks.com/](https://browserleaks.com/)
+
+
 *****Add-ons*****
 
 The following add-ons have been chosen for being available equally on OSX and Android versions of Firefox, for consistency.
@@ -96,6 +105,3 @@ OSX:
 * Bruce Schneier: [Should there be limits on persuasive technologies?](https://www.schneier.com/blog/archives/2020/12/should-there-be-limits-on-persuasive-technologies.html)
 * Comprehensive [guide to online anonymity](https://anonymousplanet.org/guide.html) - also [on github](https://github.com/AnonymousPlanet/thgtoa)
 * Ars Technica guide to securing your online identity: [Part 1](https://arstechnica.com/features/2021/10/securing-your-digital-life-part-1/) and [two](https://arstechnica.com/information-technology/2021/10/securing-your-digital-life-part-2/)
-* Information leakage checker 1: [https://ipleak.net/](https://ipleak.net/)
-* Information leakage checker 2: [https://dnsleaktest.com/](https://dnsleaktest.com/)
-* Information leakage checker 3: [https://browserleaks.com/](https://browserleaks.com/)
