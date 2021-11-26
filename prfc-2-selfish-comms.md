@@ -38,6 +38,13 @@ As of December 2016, I use [Trust.Zone](https://trust.zone/)  - it should be not
 
 ***Internal Config***
 
+****Router/network setup****
+
+For DNS, I'm currently trialling [DNSWatch](https://www.dnswatch.info/)'s public DNS service. This is enabled as default DNS on my home router, but also within wifi connections on my individual laptop(s) in case I access the net from elsewhere.
+
+* IPv4: 84.200.69.80, 84.200.70.40
+* IPv6: 2001:1608:10:25::1c04:b12f, 2001:1608:10:25::9249:d69b
+
 ****VPN setup****
 
 See above for more info on the Trust.Zone, the VPN service I'm currently using. For all clients below, I tend to connect to a VPN server in *Switzerland* as a primary option, and *Brazil* as a secondary option. I've started looking into the [14 Eyes countries](https://www.my-private-network.co.uk/vpn-provider-14-eyes-country-something-know/) which is worth reading up on if looking to find out how information is gathered internationally.
