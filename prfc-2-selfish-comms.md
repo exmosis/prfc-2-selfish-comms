@@ -64,7 +64,11 @@ I make sure OpenVPN is ocnfigured to disallow network traffic when the VPN is re
 
 I use Firefox as it seems to offer the most consistent and complete cross-platform, cross-machine performance. That said, I have had problems running it on an underpowered Linux notebook where I've experimented with other browsers. (The [TorBrowser](https://www.torproject.org/projects/torbrowser.html) is often worth running when using Tor. [PaleMoon](http://www.palemoon.org/) and [Midori](http://midori-browser.org/) seem to be the most useful alternatives so far, at time of writing. However, keeping up with forks is time-consuming.)
 
-Firefox supports DNS-over-HTTPS (DoH) - outside of the United States, this can be configured via the "General" settings, under "Network", and then "Enable DNS over HTTPS".
+Basic Firefox config:
+
+* Set Enhanced Tracking Protection (Settings > Privacy & Security) to "Strict"
+* Outside of US, enable DoH: Firefox supports DNS-over-HTTPS (DoH) - outside of the United States, this can be configured via the "General" settings, under "Network", and then "Enable DNS over HTTPS". Should be enabled by default in the United States?
+* Probably enable HTTPS-only mode for all sites - if you are mostly browsing self-hosted indieweb sites, then there is an argument to turn this off to save server energy, but I prefer to handle exceptions on a case-by-case basis. You can bypass the mode easily when needed.
 
 Browser leakage test sites:
 
